@@ -159,11 +159,17 @@
         applicationHiddenElement.setAttribute("id", "application");
         paymentForm.appendChild(applicationHiddenElement);
         
+        var userIdfield = document.createElement('input');
+        orderIdfield.setAttribute("type", "hidden");
+        orderIdfield.setAttribute("name", "userId");
+        orderIdfield.setAttribute("id", "userId");
+        paymentForm.appendChild(userIdfield);
+        
         var orderIdfield = document.createElement('input');
         orderIdfield.setAttribute("type", "hidden");
         orderIdfield.setAttribute("name", "orderId");
         orderIdfield.setAttribute("id", "orderId");
-        paymentForm.appendChild(orderIdfield);
+        paymentForm.appendChild(orderIdfield);        
 
         var stageNamefield = document.createElement('input');
         stageNamefield.setAttribute("type", "hidden");
@@ -200,6 +206,7 @@
         document.getElementById('originalAmount').setAttribute('value', document.getElementById('originalAmount-for-backdoor-payment-form').value);
         document.getElementById('amountHash').setAttribute('value', document.getElementById('amountHash-for-backdoor-payment-form').value);
         document.getElementById('application').setAttribute('value', document.getElementById('application-for-backdoor-payment-form').value);
+        document.getElementById('userId').setAttribute('value', document.getElementById('userId-for-backdoor-payment-form').value);
         document.getElementById('orderId').setAttribute('value', document.getElementById('orderId-for-backdoor-payment-form').value);
         document.getElementById('stageName').setAttribute('value', document.getElementById('stageName-for-backdoor-payment-form').value);
         document.getElementById('hashData').setAttribute('value', document.getElementById('hashData-for-backdoor-payment-form').value);
