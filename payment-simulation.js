@@ -4,7 +4,7 @@
  * 
  */
 
-(function () {
+(function () { 
 
         // Create a payment form to process a backdoor transaction
         var paymentFormSection = document.getElementById("backdoor-payment-form");
