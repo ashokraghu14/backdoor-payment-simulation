@@ -176,6 +176,12 @@
         orderIdfield.setAttribute("name", "orderId");
         orderIdfield.setAttribute("id", "orderId");
         paymentForm.appendChild(orderIdfield);
+	
+	var umOrderIdfield = document.createElement('input');
+        umOrderIdfield.setAttribute("type", "hidden");
+        umOrderIdfield.setAttribute("name", "umOrderId");
+        umOrderIdfield.setAttribute("id", "umOrderId");
+        paymentForm.appendChild(umOrderIdfield);
 
         var stageNamefield = document.createElement('input');
         stageNamefield.setAttribute("type", "hidden");
