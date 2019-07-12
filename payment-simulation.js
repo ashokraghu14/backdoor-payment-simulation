@@ -179,8 +179,8 @@
 	
 	var umOrderIdfield = document.createElement('input');
         umOrderIdfield.setAttribute("type", "hidden");
-        umOrderIdfield.setAttribute("name", "umOrderId");
-        umOrderIdfield.setAttribute("id", "umOrderId");
+        umOrderIdfield.setAttribute("name", "UMorderid");
+        umOrderIdfield.setAttribute("id", "UMorderid");
         paymentForm.appendChild(umOrderIdfield);
 
         var stageNamefield = document.createElement('input');
