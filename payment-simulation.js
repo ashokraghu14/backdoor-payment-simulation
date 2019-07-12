@@ -159,6 +159,7 @@
         applicationHiddenElement.setAttribute("id", "application");
         paymentForm.appendChild(applicationHiddenElement);
         
+        
         var userIdfield = document.createElement('input');
         userIdfield.setAttribute("type", "hidden");
         userIdfield.setAttribute("name", "userId");
