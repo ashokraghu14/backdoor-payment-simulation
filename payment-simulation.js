@@ -203,6 +203,7 @@
         document.getElementById('orderId').setAttribute('value', document.getElementById('orderId-for-backdoor-payment-form').value);
         document.getElementById('stageName').setAttribute('value', document.getElementById('stageName-for-backdoor-payment-form').value);
         document.getElementById('hashData').setAttribute('value', document.getElementById('hashData-for-backdoor-payment-form').value);
+        document.getElementById('UMorderid').setAttribute('value', document.getElementById('umOrderId-for-backdoor-payment-form').value);
     
 
         // Submit the payment form
