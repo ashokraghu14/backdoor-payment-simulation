@@ -159,11 +159,18 @@
         applicationHiddenElement.setAttribute("id", "application");
         paymentForm.appendChild(applicationHiddenElement);
         
+        
         var userIdfield = document.createElement('input');
         userIdfield.setAttribute("type", "hidden");
         userIdfield.setAttribute("name", "userId");
         userIdfield.setAttribute("id", "userId");
         paymentForm.appendChild(userIdfield);
+        
+        var configKeyHiddenElement = document.createElement('input');	
+	configKeyHiddenElement.setAttribute("type", "hidden");	
+	configKeyHiddenElement.setAttribute("name", "configKey");	
+	configKeyHiddenElement.setAttribute("id", "configKey");	
+	paymentForm.appendChild(configKeyHiddenElement);
         
         var orderIdfield = document.createElement('input');
         orderIdfield.setAttribute("type", "hidden");
