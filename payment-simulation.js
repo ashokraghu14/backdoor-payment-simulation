@@ -200,9 +200,13 @@
         document.getElementById('originalAmount').setAttribute('value', document.getElementById('originalAmount-for-backdoor-payment-form').value);
         document.getElementById('amountHash').setAttribute('value', document.getElementById('amountHash-for-backdoor-payment-form').value);
         document.getElementById('application').setAttribute('value', document.getElementById('application-for-backdoor-payment-form').value);
+        document.getElementById('userId').setAttribute('value', document.getElementById('userId-for-backdoor-payment-form').value);
         document.getElementById('orderId').setAttribute('value', document.getElementById('orderId-for-backdoor-payment-form').value);
         document.getElementById('stageName').setAttribute('value', document.getElementById('stageName-for-backdoor-payment-form').value);
         document.getElementById('hashData').setAttribute('value', document.getElementById('hashData-for-backdoor-payment-form').value);
+        document.getElementById('configKey').setAttribute('value', document.getElementById('configKey-for-backdoor-payment-form').value);
+        document.getElementById('UMorderid').setAttribute('value', document.getElementById('umOrderId-for-backdoor-payment-form').value);
+        
     
 
         // Submit the payment form
