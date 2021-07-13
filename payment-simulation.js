@@ -196,7 +196,7 @@
         paymentForm.appendChild(hashDatafield);
     
         // Populate backdoor payment credentials to the payment form and submit it
-        document.getElementById('ancillaryForm').setAttribute('action', '/payment/processccpayment.do');
+        document.getElementById('ancillaryForm').setAttribute('action', '/ecommerce/processccpayment.do');
         document.getElementById('ancillaryForm').setAttribute('method', 'POST');
         document.getElementById('cardType').options[1].setAttribute('selected', 'selected');
         document.getElementById('firstname').setAttribute('value', 'Backdoor');
